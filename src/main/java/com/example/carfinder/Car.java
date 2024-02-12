@@ -1,11 +1,13 @@
 package com.example.carfinder;
 
+import java.util.List;
+
 public class Car {
 
     private final String registrationNumber;
-    private int wheels;
+    private List<Wheel> wheels;
 
-    public Car(String registrationNumber, int wheels) {
+    public Car(String registrationNumber, List<Wheel> wheels) {
         this.registrationNumber = registrationNumber;
         this.wheels = wheels;
     }
@@ -14,11 +16,11 @@ public class Car {
         return this.registrationNumber;
     }
 
-    public int getWheels() {
-        return this.wheels;
+    public List<Wheel> getWheels() {
+        return wheels;
     }
 
-    public void setWheels(int wheels) {
+    public void setWheels(List<Wheel> wheels) {
         this.wheels = wheels;
     }
 

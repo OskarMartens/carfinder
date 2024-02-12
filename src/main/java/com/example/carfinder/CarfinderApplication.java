@@ -16,5 +16,4 @@ public class CarfinderApplication {
 		System.out.println(vehicleFinder.findCar("XYZ321").toString());
 		System.out.println(vehicleFinder.findCar("ABC111").toString());
 	}
-
 }
